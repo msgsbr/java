@@ -17,8 +17,8 @@ public class Program {
 		byte 		c = 127; // (8 bits) -128 to 127 
 		short 		d = 32767; // (16 bits) -32768 to 32767
 		int 		e = 1000; // (32 bits)
-		long 		f = 12345689798798798L; // (64 bits), acrecenta-se 'L' para o compilador nao entender que seja 'int'
-		float 		g = 0.5f; // (32 bits) 0.0, acrecenta-se 'f' para o compilador nao entender que seja 'double'
+		long 		f = 12345689798798798L; // (64 bits), acrescenta-se 'L' para o compilador nao entender que seja 'int'
+		float 		g = 0.5f; // (32 bits) 0.0, acrescenta-se 'f' para o compilador nao entender que seja 'double'
 		double 		h = 0.9; // (64 bits) 0.0
 		
 		System.out.println(a);
