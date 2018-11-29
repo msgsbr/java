@@ -25,8 +25,7 @@ public class EntradaDeDados3 {
 		System.out.println(sobreNome);
 		System.out.println(idade);
 		System.out.println(altura);
-		
-		
+			
 		// FINALIZANDO O USO DA CLASSE
 		data.close();
 		
