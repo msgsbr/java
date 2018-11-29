@@ -1,5 +1,4 @@
 package course;
-
 import java.util.Scanner;
 
 public class EntradaDeDados3 {
@@ -31,7 +30,6 @@ public class EntradaDeDados3 {
 		// FINALIZANDO O USO DA CLASSE
 		data.close();
 		
-
 	}
 
 }
