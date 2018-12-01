@@ -20,8 +20,7 @@ public class EntradaDeDados3 {
 		
 		System.out.println(nomeCompleto);
 		System.out.println(quartos);
-		System.out.println(preco);
-		
+		System.out.println(preco);		
 		System.out.println(sobreNome);
 		System.out.println(idade);
 		System.out.println(altura);
