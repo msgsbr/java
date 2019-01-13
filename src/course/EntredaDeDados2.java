@@ -12,20 +12,25 @@ public class EntredaDeDados2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter a number:");
 		int n1 = sc.nextInt();
 		sc.nextLine(); // (FLUSH) limpeza de stream de entrada. Para consumir a quebra de linha anterior
+		System.out.println("Enter a full name:");
 		String name = sc.nextLine();
+		System.out.println("Enter a gender:");
 		char gender = sc.next().charAt(0);
 		
 		// Codigo composto por uma letra e um digito sendo salvo em variaveis tipadas b5
-		
+		System.out.println("Enter a code (b5):");
 		String s = sc.next(); // b5
 		char letter = s.charAt(0); // pega o primeiro caracter
 		int digit = Integer.parseInt( s.substring(1) ); // subtrai o primeiro caracter, necessario 'parseInt' para transformar String em Inteiro
 
+		System.out.println("Enter a double nunbmer (4.32):");
 		// 4.32
 		double n2 = sc.nextDouble();
 		
+		System.out.println("Enter a Name, Gender, Age and Height:");
 		// Marcelo M 39 1.80, guardando em variaveis separadas
 		String name2 = sc.next();
 		char ch = sc.next().charAt(0);
