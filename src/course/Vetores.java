@@ -11,12 +11,12 @@ public class Vetores {
 		int n = data.nextInt();
 		double[] vect = new double[n];
 		
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < vect.length; i++) {
 			vect[i] = data.nextDouble();
 		}
 		
 		double sum = 0.0;
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < vect.length; i++) {
 			sum += vect[i];
 		}
 		
