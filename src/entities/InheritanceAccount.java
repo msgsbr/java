@@ -1,15 +1,15 @@
 package entities;
 
-public class AccountInheritance {
+public class InheritanceAccount {
 
-	protected Integer number;
-	protected String holder;
+	private Integer number;
+	private String holder;
 	protected Double balance;
 		
-	public AccountInheritance() {
+	public InheritanceAccount() {
 	}
 	
-	public AccountInheritance(Integer number, String holder, Double balance) {
+	public InheritanceAccount(Integer number, String holder, Double balance) {
 		this.number = number;
 		this.holder = holder;
 		this.balance = balance;

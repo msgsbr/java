@@ -1,14 +1,14 @@
 package entities;
 
-public class BusinessAccountInheritance extends AccountInheritance {
+public class InheritanceBusinessAccount extends InheritanceAccount {
 
 	private Double loanLimit;
 	
-	public BusinessAccountInheritance() {
+	public InheritanceBusinessAccount() {
 		super();
 	}
 
-	public BusinessAccountInheritance(Integer number, String holder, Double balance, Double loanLimit) {
+	public InheritanceBusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
 		super(number, holder, balance);
 		this.loanLimit = loanLimit;
 	}
@@ -30,6 +30,6 @@ public class BusinessAccountInheritance extends AccountInheritance {
 	}
 	
 	public String toString() {
-		return "Agency: " + number + "Holder: " + holder + "\nBalance: $ " + balance + "\nLoan limit: $ " + loanLimit;
+		return "Agency: " + getNumber() + "\nHolder: " + getHolder() + "\nBalance: $ " + balance + "\nLoan limit: $ " + loanLimit;
 	}
 }
