@@ -29,6 +29,12 @@ public class InheritanceBusinessAccount extends InheritanceAccount {
 		}
 	}
 	
+	@Override
+	public void withdraw(double amount) {
+		super.withdraw(amount);
+		balance -= 2.0;
+	}
+	
 	public String toString() {
 		return "Agency: " + getNumber() + "\nHolder: " + getHolder() + "\nBalance: $ " + balance + "\nLoan limit: $ " + loanLimit;
 	}
